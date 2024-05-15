@@ -1,6 +1,27 @@
 # Orders_Discoun_Rule_Engine_Using_Scala
- 
-# Order Discount Rule Engine
+
+## Overview
+
+This project involves creating a rule engine for a large retail store to determine and apply discounts to order transactions based on a set of predefined rules. The engine qualifies transactions for discounts using various criteria and then calculates the appropriate discount amount. The final discounted price is computed and stored in a database. The project also involves logging engine events to a log file.
+
+### Problem Statement
+
+The rule engine must:
+
+1. Qualify orders for discounts based on specific rules.
+2. Calculate discounts using predefined calculation rules.
+3. Apply the top two discounts (if applicable) and average them.
+4. Store the results, including the final price, in a database.
+5. Log events in a specified format.
+
+### Qualifying and Calculation Rules
+
+- **Expiration Discount**: Products expiring in less than 30 days receive a discount.
+- **Category Discount**: Cheese products receive a 10% discount; wine products receive a 5% discount.
+- **Special Date Discount**: Orders made on March 23rd receive a 50% discount.
+- **Quantity Discount**: Orders of more than 5 units receive a discount based on the quantity.
+- **Channel Discount**: Orders made through the app receive a discount based on the quantity.
+- **Payment Method Discount**: Orders paid using Visa receive a 5% discount.
 
 ## Imports
 
