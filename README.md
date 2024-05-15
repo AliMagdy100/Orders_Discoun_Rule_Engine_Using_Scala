@@ -59,7 +59,8 @@ instead of creating a DB connection for each funcction call, I utilized the conc
 ![image](https://github.com/AliMagdy100/Orders_Discount_Rule_Engine_Using_Scala/assets/87953057/67ad85fe-a033-4085-b192-439290ad5c30)
 3. **Lazily Evaluated DB connection**:
 instead of initiated a connection once the program start, I utilized the concept of lazy evaluation for only creating the connection when needed(called).
-![Uploading image.png…]()
+![image](https://github.com/AliMagdy100/Orders_Discount_Rule_Engine_Using_Scala/assets/87953057/54bb41e6-78e3-4960-b3e4-68724550a2dc)
+
 
 
 
