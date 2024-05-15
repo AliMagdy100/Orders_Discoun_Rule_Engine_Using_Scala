@@ -53,5 +53,13 @@ This project involves creating a rule engine for a large retail store to determi
 ## Optmization Techniques
 1. **Defining Case Classes**:
 instead of parsing the order string in each function, I utilized case classes for easiness of field accessing and immutability property
-![image](https://github.com/AliMagdy100/Orders_Discount_Rule_Engine_Using_Scala/assets/87953057/fbdaebfb-9e46-48f9-8385-b73d06dae760)
+![image](https://github.com/AliMagdy100/Orders_Discount_Rule_Engine_Using_Scala/assets/87953057/8210ecb6-e813-48c7-b361-0e0f6dbb44ed)
+2. **Singleton Object for Database Connection**:
+instead of creating a DB connection for each funcction call, I utilized the concept of singleton which allow only one connection object to be created
+![image](https://github.com/AliMagdy100/Orders_Discount_Rule_Engine_Using_Scala/assets/87953057/67ad85fe-a033-4085-b192-439290ad5c30)
+3. **Lazily Evaluated DB connection**:
+instead of initiated a connection once the program start, I utilized the concept of lazy evaluation for only creating the connection when needed(called).
+![Uploading image.png…]()
+
+
 
