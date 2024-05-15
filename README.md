@@ -16,6 +16,7 @@ This project involves creating a rule engine for a large retail store to determi
 ## Solution Architecture
 
 ![siu](https://github.com/AliMagdy100/Orders_Discount_Rule_Engine_Using_Scala/assets/87953057/3e5e7991-0e25-4eb6-86a0-b4e61ef8d7b7)
+The solution follows these steps:
 1. **Input Orders**:
    - Multiple "Order" inputs are fed into the system. These represent incoming orders or data points.
 
