@@ -45,7 +45,7 @@ This project involves creating a rule engine for a large retail store to determi
 7. **Discount Rules**: Define qualification and calculation functions to determine if an order qualifies for a discount and calculate the discount amount.
 8. **Define Discount Rules List**:Create a list of discount rules, pairing qualification and calculation functions.
 9. **Apply Discount Rules**:Define a function `getOrderWithDiscount` to apply discount rules to an order and create an `OrderWithDiscount` object.
-10.**Calculate Final Price**: Define a function `getOrderWithFinalPrice` to calculate the final price after applying discounts.
-11.**Database Operations**:Define a function `insertOrder` to insert an order into a database.
-12.**Process Orders**:Convert lines to orders, apply discounts, calculate final prices, and insert each order into the database.
-13.**Database Connection Management**: Create a singleton object `ConnectionManager` to manage database connections.
+10. **Calculate Final Price**: Define a function `getOrderWithFinalPrice` to calculate the final price after applying discounts.
+11. **Database Operations**:Define a function `insertOrder` to insert an order into a database.
+12. **Process Orders**:Convert lines to orders, apply discounts, calculate final prices, and insert each order into the database.
+13. **Database Connection Management**: Create a singleton object `ConnectionManager` to manage database connections.
