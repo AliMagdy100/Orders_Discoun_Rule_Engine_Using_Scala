@@ -20,12 +20,15 @@ The rule engine must:
 - **Category Discount**: Cheese products receive a 10% discount; wine products receive a 5% discount.
 - **Special Date Discount**: Orders made on March 23rd receive a 50% discount.
 - **Quantity Discount**: Orders of more than 5 units receive a discount based on the quantity.
-- **Channel Discount**: Orders made through the app receive a discount based on the quantity.
+- **Channel Discount**: Orders made through the app receive a discount based on the quantity rounded to the nearest 5.
 - **Payment Method Discount**: Orders paid using Visa receive a 5% discount.
 
+### Solution Architecture
+![siu](https://github.com/AliMagdy100/Orders_Discount_Rule_Engine_Using_Scala/assets/87953057/3e5e7991-0e25-4eb6-86a0-b4e61ef8d7b7)
 ## Imports
 
 Import necessary Scala libraries for file operations, date and time manipulation, and database connectivity.
+
 
 ## Logging Setup
 
