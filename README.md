@@ -51,7 +51,7 @@ The solution follows these steps:
 12. **Process Orders**:Convert lines to orders, apply discounts, calculate final prices, and insert each order into the database.
 13. **Database Connection Management**: Create a singleton object `ConnectionManager` to manage database connections.
 
-##Scala Optmization Techniques
+## Scala Optmization Techniques
 1. **Defining Case Classes**:
 instead of parsing the order string in each function, I utilized case classes for easiness of field accessing and immutability property
 ![image](https://github.com/AliMagdy100/Orders_Discount_Rule_Engine_Using_Scala/assets/87953057/8210ecb6-e813-48c7-b361-0e0f6dbb44ed)
